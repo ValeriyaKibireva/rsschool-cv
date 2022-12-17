@@ -2,41 +2,72 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
-        <title>Title</title>
+        <title>cv</title>
         <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="normalize.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap"
+            rel="stylesheet"
+        />
     </head>
     <body>
-        <header>
-            <section class="header-descr">
-                <h1>Valeryia Kibireva</h1>
-                <span>Front-end developer</span>
-            </section>
+        <header class="base-wrapper header font-main">
+            <nav class="navigation">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#contacts" class="nav-link">Contacts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#summary" class="nav-link">Summary</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#skills" class="nav-link">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#code-example" class="nav-link"
+                            >Code example</a
+                        >
+                    </li>
+                    <li class="nav-item">
+                        <a href="#courses" class="nav-link">Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#projects" class="nav-link">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#languages" class="nav-link">Languages</a>
+                    </li>
+                </ul>
+            </nav>
         </header>
 
-        <main>
-            <section class="left-section">
-                <div class="main-picture"></div>
-                <div class="container">
+        <main class="base-wrapper main-content">
+            <section class="left-section font-main">
+                <div class="main-logo">
+                    <img src="images/main-logo.jpg" alt="main logo" />
+                </div>
+                <div class="container" id="contacts">
                     <h2>Contacts</h2>
                     <ul class="contacts-list">
                         <li class="contacts-item">
-                            Phone:
+                            <img src="icons/phone.svg" alt="phone icone" />
                             <a href="tel:+48573208013">+48573208013</a>
                         </li>
                         <li class="contacts-item">
-                            E-mail:
+                            <img src="icons/mail.svg" alt="mail icon" />
                             <a href="mailto:kiborglera@gmail.com"
                                 >kiborglera@gmail.com</a
                             >
                         </li>
                         <li class="contacts-item">
-                            GitHub:
-                            <a href="ссылку вставить">ссылку вставить</a>
+                            <img src="icons/map-pin.svg" alt="map icon" />
+                            Warsaw, Poland
                         </li>
-                        <li class="contacts-item">Warsaw, Poland</li>
                     </ul>
                 </div>
-                <div class="container">
+                <div class="container" id="skills">
                     <h2>Skills</h2>
                     <ul class="skills-list">
                         <li class="skills-item">HTML</li>
@@ -44,7 +75,7 @@
                         <li class="skills-item">JavaScript</li>
                     </ul>
                 </div>
-                <div class="container">
+                <div class="container" id="courses">
                     <h2>Courses</h2>
                     <ul class="courses-list">
                         <li class="courses-item">
@@ -62,7 +93,14 @@
             </section>
 
             <section class="right-section">
-                <div class="container">
+                <div class="main-title">
+                    <h1>
+                        Valeriya
+                        <span>Kibireva</span>
+                    </h1>
+                    <span class="main-descr">Front-end developer</span>
+                </div>
+                <div class="container font-main" id="summary">
                     <h2>Summary</h2>
                     <span
                         >I was working in social media marketing for 4.5 years.
@@ -76,13 +114,13 @@
                         front-end developer.
                     </span>
                 </div>
-                <div class="container">
+                <div class="container font-main" id="code-example">
                     <h2>Code-example</h2>
                 </div>
-                <div class="container">
+                <div class="container font-main" id="projects">
                     <h2>Projects</h2>
                 </div>
-                <div class="container">
+                <div class="container font-main" id="languages">
                     <h2>Languages</h2>
                 </div>
             </section>
