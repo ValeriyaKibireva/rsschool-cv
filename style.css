@@ -1,5 +1,214 @@
-html, body {
-    margin: 0;
-    padding: 0;
-    min-width: 1200px;
+html * {
+    box-sizing: border-box;
 }
+
+.font-main {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 180%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.base-wrapper {
+    width: 100%;
+    padding: 0 40px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.header .navigation {
+    background-color: #7a6563;
+    width: 100%;
+    padding-left: 500px;
+}
+
+.header .nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 10px 10px;
+}
+
+.header .nav-item {
+    padding-right: 10px;
+}
+
+.header .nav-item a:hover {
+    transition: 0.3s;
+    color: rgb(255, 255, 159);
+}
+
+.left-section {
+    min-width: 500px;
+    max-width: 500px;
+    background-color: rgb(255, 255, 159);
+}
+
+.main-content {
+    display: flex;
+}
+
+.main-logo {
+    width: 500px;
+    max-width: 500px;
+    background-color: rgb(255, 255, 159);
+    padding: 70px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.main-logo img {
+    width: 350px;
+    height: 350px;
+    border: 15px solid white;
+    border-radius: 50%;
+}
+
+.container h2 {
+    color: #FFFFFF;
+    text-transform: uppercase;
+    background-color: #7a6563;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 35px;
+}
+
+.left-section .container {
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-bottom: 70px;
+}
+
+.left-section .contacts-list {
+    list-style: none;
+}
+
+.left-section .contacts-list a {
+    color: black;
+}
+
+.left-section .contacts-list a:hover {
+    transition: 0.3s;
+    color: #7a6563;
+}
+
+.left-section .contacts-item {
+    display: flex;
+    align-items: center;
+}
+
+.left-section .contacts-item img {
+    height: 20px;
+    padding-right: 10px;
+}
+
+.left-section .skills-list {
+    padding-left: 20px;
+}
+
+.left-section .courses-item {
+    margin-bottom: 20px;
+}
+
+.bold-font {
+    font-weight: bold;
+    color: #7a6563;
+}
+
+li::marker {
+    color: #7a6563;
+}
+
+.right-section .code-example {
+    margin: 0;
+}
+
+.left-section .courses-list {
+    list-style: none;
+}
+
+.right-section {
+    flex-grow: 1;
+    word-break: break-word;
+}
+
+.right-section .container a {
+    color: black;
+}
+
+.right-section .container {
+    padding-left: 60px;
+    margin-bottom: 70px;
+}
+
+.main-title {
+    padding: 100px 60px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+
+}
+
+.main-title h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 105px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 15px;
+    margin-bottom: 10px;
+}
+
+.main-title h1 span {
+    font-weight: 400;
+    letter-spacing: 25px;
+}
+
+.main-descr {
+    font-size: 35px;
+    font-weight: 300;
+    letter-spacing: 5px;
+}
+
+.right-section .languages-descr {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer {
+    display: flex;
+}
+
+.footer .footer-content {
+    background-color: #7a6563;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 0px 10px;
+}
+
+.footer .github-icon {
+    width: 60px;
+    height: 60px;
+    padding-top: 10px;
+}
+
+.footer .rsschool-icon {
+    width: 100px;
+    height: 50px;
+    padding-top: 10px;
+}
+
