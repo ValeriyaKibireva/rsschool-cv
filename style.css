@@ -82,7 +82,7 @@ body {
     background-color: #7a6563;
     text-align: center;
     padding: 5px;
-    margin-bottom: 25px;
+    margin-bottom: 35px;
 }
 
 .left-section .container {
@@ -100,19 +100,39 @@ body {
 }
 
 .left-section .contacts-list a:hover {
-    color: black;
     transition: 0.3s;
     color: #7a6563;
 }
 
+.left-section .contacts-item {
+    display: flex;
+    align-items: center;
+}
+
 .left-section .contacts-item img {
-    width: 35px;
-    height: 18px;
+    height: 20px;
     padding-right: 10px;
 }
 
 .left-section .skills-list {
-    list-style: none;
+    padding-left: 20px;
+}
+
+.left-section .courses-item {
+    margin-bottom: 20px;
+}
+
+.bold-font {
+    font-weight: bold;
+    color: #7a6563;
+}
+
+li::marker {
+    color: #7a6563;
+}
+
+.right-section .code-example {
+    margin: 0;
 }
 
 .left-section .courses-list {
@@ -122,6 +142,10 @@ body {
 .right-section {
     flex-grow: 1;
     word-break: break-word;
+}
+
+.right-section .container a {
+    color: black;
 }
 
 .right-section .container {
@@ -155,3 +179,36 @@ body {
     font-weight: 300;
     letter-spacing: 5px;
 }
+
+.right-section .languages-descr {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer {
+    display: flex;
+}
+
+.footer .footer-content {
+    background-color: #7a6563;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 0px 10px;
+}
+
+.footer .github-icon {
+    width: 60px;
+    height: 60px;
+    padding-top: 10px;
+}
+
+.footer .rsschool-icon {
+    width: 100px;
+    height: 50px;
+    padding-top: 10px;
+}
+

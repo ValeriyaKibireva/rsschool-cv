@@ -79,14 +79,17 @@
                     <h2>Courses</h2>
                     <ul class="courses-list">
                         <li class="courses-item">
-                            SkillBox: Web layout «Basic level»
+                            <span class="bold-font">SkillBox:</span> Web layout
+                            «Basic level»
                         </li>
                         <li class="courses-item">
-                            PurpleSchool: JavaScript from scratch - basic JS and
-                            practice for beginners
+                            <span class="bold-font">PurpleSchool:</span>
+                            JavaScript from scratch - basic JS and practice for
+                            beginners
                         </li>
                         <li class="courses-item">
-                            RS School - JavaScript/Front-end. Stage 0
+                            <span class="bold-font">RS School:</span>
+                            JavaScript/Front-end. Stage 0
                         </li>
                     </ul>
                 </div>
@@ -115,17 +118,60 @@
                     </span>
                 </div>
                 <div class="container font-main" id="code-example">
-                    <h2>Code-example</h2>
+                    <h2>Code example</h2>
+                    <span> </span>
+                    <pre class="code-example">
+                        <code>
+const arr = ['!', 'JS', 'люблю', 'Я'];
+const resultArray = [];
+
+for(let i = arr.length - 1; i >= 0; i--) {
+    resultArray.push(arr[i])
+};
+    console.log(resultArray.join(' '));
+                        </code>
+                    </pre>
                 </div>
                 <div class="container font-main" id="projects">
                     <h2>Projects</h2>
+                    <a href="#">Ссылка на этот проект, ДОБАВИТЬ!!!</a>
                 </div>
                 <div class="container font-main" id="languages">
                     <h2>Languages</h2>
+
+                    <div class="languages-descr">
+                        <p><span class="bold-font">Russian</span> – native</p>
+                        <p>
+                            <span class="bold-font">English</span> – B1 in
+                            progress
+                        </p>
+                        <p>
+                            <span class="bold-font">Polish</span> – B1 in
+                            progress
+                        </p>
+                    </div>
                 </div>
             </section>
         </main>
 
-        <footer></footer>
+        <footer class="base-wrapper footer font-main">
+            <div class="footer-content">
+                <a href="https://github.com/ValeriyaKibireva">
+                    <img
+                        class="github-icon"
+                        src="icons/github-icon.svg"
+                        alt="github icon"
+                    />
+                </a>
+                <span>2022</span>
+                <a href="https://rs.school/js-stage0/">
+                    <img
+                        class="rsschool-icon"
+                        src="icons/rsschool-logo.svg"
+                        alt="rsschool icon"
+                    />
+                </a>
+            </div>
+        </footer>
     </body>
 </html>
