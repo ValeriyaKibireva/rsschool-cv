@@ -3,11 +3,9 @@
 ___
 ## Contact information
 
-Phone for **communication in messengers** (WhatsApp, Telegram): +375447792737
+Phone for **communication in messengers** 
 
-Phone for **calls in Poland:** +48573208013
-
-**E-mail:** kiborglera@gmail.com
+**E-mail:**
 
 **GitHub / Discord:** ValeriyaKibireva
 
