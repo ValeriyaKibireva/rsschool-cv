@@ -3,7 +3,7 @@
 ___
 ## Contact information
 
-Phone for **communication in messengers** 
+Phone for **communication in messengers**
 
 **E-mail:**
 
